@@ -11,16 +11,16 @@
     <div class="wrapper">
         <div class="container">
             <header id="header">
-                <a class="btn btn_active" href="#popup">Open pop-up button</a>
-                <div id="popup">
-                    <div class="popup-content">
-                        
-                    </div>
-                    
-                  </div>
-                </div>
+              <div class="btn">
+                <a href="#popup-link">Open pop-up button</a>
+              </div>
+              <a href="#x" class="overlay" id="popup-link"></a>
+              <div class="popup">
+                <h2 class="popup__title">Pop-up</h2>
+                <a class="popup__close" title="Close" href="#close"></a>
+              </div>
             </header>
-            <main class="main">
+            <main id="main">
               <div class="blocks">
                 <div class="blocks__item">1</div>
                 <div class="blocks__item">2</div>
